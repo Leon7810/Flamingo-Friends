@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Typewriter Font -->
+    <link href='assets/NixieOne.ttf' rel='stylesheet' type='text/css'>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <!-- Font awesome script -->
+    <script src="https://kit.fontawesome.com/54ff0c56ce.js" crossorigin="anonymous"></script>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Flamingo Friend | Landing Page</title>
+</head>
+<body>
+<div class="loader">
+  <div class="loader-inner">
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+    <div class="loader-line-wrap">
+      <div class="loader-line"></div>
+    </div>
+  </div>
+</div>
+    <section id="jumbo" class="bg-img">
+        <header class="header">
+            <div id="logo"><img id="logopic" src="assets/logo_txt.png" alt="" style="width: 60%;"></div>
+            <div id="sign">
+                <a href="" class="button_header">Purchase</a>
+                <a href="" class="button_header">Try for free</a>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div id="intro" class="col">
+                    <h2 id="slogan">Learn more about your garden.</h2>
+                    <hr class="line">
+                    <div id="cta">
+                        <a href="#" class="cta_btn">View our product</a>
+                    </div>
+                </div>
+                <div class="col sitting_gone">
+                    <img src="assets/flamingo_sitting.png" alt="" class="sitting">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how">
+        <div class="title">
+            <h1 id="howitworks">How it works.</h1>
+        </div>
+        <div class="container api">
+            <div class="row gap-api">
+                <div class="col">
+                    <img src="img/laptop.jpg" alt="" class="max-width" id="laptop">
+                </div>
+                <div class="col side_txt">
+                    <h1 id="api_title">Our API.</h1>
+                    <hr class="hr_api">
+                    <p class="api_text">Our (state-of-the-art thank you very much) API uses the latest code on the market. The Flamingo bot will send the info it finds (humidity, weather + changes, ground surface, grass, etc) to our cloud servers who will then transmit all the info you have to either you web-based account or to the application you have installed on your phone. The application will display all transmitted information which you then can see.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map_bg">
+        <div class="container map">
+            <div class="row gap-api" style="height: auto; margin-top: 5%;">
+                <div class="col-1">
+                    <h1 class="HQ">Our offices.</h1>
+                    <hr class="HQ_hr">
+                    <p class="HQ_txt">In case you ever want to visit our headquarters, you can! We have 17 offices spread around the globe with our biggest ones being in Mechelen, London, Los Angeles, New York, Delhi and Shanghai! Our main office building is located in Mechelen where visitation and tours are allowed 24/7 all day around!<br><br>
+                    Our HQ adres<hr><span class="Roboto">Tistestraat 17, 2800 Mechelen, Belgium</span></p>
+                </div>
+                <div class="col-2" style="margin-top: 10%; margin-bottom: 10%"><iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/leonkong78/ckvazeexk10x815o8d1wkfzxk.html?title=false&access_token=pk.eyJ1IjoibGVvbmtvbmc3OCIsImEiOiJja3U5cWoyanUwOWQxMm5wZzJjazhhMnE0In0.HDsEWvk2RyNIVfFd7oEx2A&zoomwheel=false#12/51.0259/4.4775" title="Basic" style="border:none;"></iframe></div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About us</h6>
+            <p class="text-justify"><i>Flamingo Friends</i> is a API used bot you can place in your garden which will then give information about humidity, weather, ground and grass.</p>
+          </div>
+
+          <!-- <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+            </ul>
+          </div> -->
+
+          <div class="col-sm-12 col-md-6">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="#">Flamingo Friends</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+        $(window).on("load",function(){
+          $(".loader").fadeOut("slow");
+        });
+    </script>
+</body>
+</html>
